@@ -130,8 +130,10 @@
                     categories="sql">
 
                     <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
-                    <file type="jar" path="maven:/mysql:mysql-connector-java:RELEASE[5.1.44]" bundle="!drivers.mysql"/>
-                    <file type="jar" path="drivers/mysql/mysql5" bundle="drivers.mysql"/>
+<!--                    <file type="jar" path="maven:/mysql:mysql-connector-java:RELEASE[5.1.44]" bundle="!drivers.mysql"/>-->
+<!--                    <file type="jar" path="drivers/mysql/mysql5" bundle="drivers.mysql"/>-->
+                    <file type="jar" path="drivers/oceanbase" bundle="drivers.oceanbase"/>
+
                 </driver>
             </drivers>
         </datasource>
